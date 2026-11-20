@@ -1,0 +1,8 @@
+/.angular/
+/.pnpm-store/
+/node_modules/
+/dist/
+/coverage/
+*.log
+.env
+.env.*
