@@ -31,7 +31,8 @@
         "serve": {
           "builder": "@angular/build:dev-server",
           "options": {
-            "buildTarget": "admin:build:development"
+            "buildTarget": "admin:build:development",
+            "proxyConfig": "proxy.supabase.json"
           }
         },
         "test": {
